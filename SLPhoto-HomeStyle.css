@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*
+Author: Bryan Flores
+Date: 11/19/2021
+*/
+
+html {
+    background-color: rgb(249, 246, 238)
+}
+
+body {
+    margin: 10em auto;
+    width: 100%;
+    max-width: 80%;
+    max-height: 50%;
+}
+
+#header-wrapper {
+    width: 100%;
+}
+
+div h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Arvo', serif;
+}
+
+div#home-photos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2em;
+}
+
+.home-photos-class {
+    margin: 2em;
+    object-fit: cover;
+}
+
+div#nav-wrapper {
+    background-color: rgb(10, 73, 114);
+    text-align: center;
+    width: 100%;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;    
+}
+nav.horizontal ul {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+nav.horizontal li {
+    display: inline;}
+
+nav.horizontal li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2.5em;
+    color: rgb(243, 234, 217);
+}
+
+#about-text-image {
+    height: 15em;
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+
+#about-text-wrapper {
+    margin-top: 2em;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+#about-text-wrapper h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: 'Arvo', serif;
+}
